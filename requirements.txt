@@ -1,0 +1,4 @@
+sagemaker>=3.12
+openai>=2.0
+httpx>=0.27
+boto3>=1.42

@@ -1,0 +1,8 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime artifacts / logs (may contain account IDs, ARNs, endpoint names)
+*.log
+endpoint_info.json
