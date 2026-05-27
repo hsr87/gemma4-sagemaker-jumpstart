@@ -1,5 +1,12 @@
 # Gemma 4 on SageMaker JumpStart + OpenAI-compatible API
 
+> **개요 (한국어)**
+> 이 저장소는 **Amazon SageMaker JumpStart로 Gemma 4 모델을 손쉽게 배포**하고,
+> 배포된 엔드포인트가 **OpenAI 호환 API 포맷으로 정상 동작하는지 테스트**하기 위한 예제입니다.
+> `deploy_gemma4.py`로 배포하고, `test_openai_api.py`에서 OpenAI Python SDK로 호출(채팅·스트리밍)해
+> 확인한 뒤, `cleanup.py`로 리소스를 정리하는 end-to-end 흐름을 제공합니다.
+> 자세한 단계별 가이드는 [`gemma4_guide.md`](./gemma4_guide.md)를 참고하세요.
+
 Deploys a **Gemma 4** model from Amazon SageMaker JumpStart to a real-time
 endpoint and tests it through SageMaker's **OpenAI-compatible API**.
 
